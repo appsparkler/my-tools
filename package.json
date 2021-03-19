@@ -1,0 +1,14 @@
+{
+  "name": "my-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:appsparkler/my-tools.git",
+  "author": "Aakash Shah <subs@appsparkler.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap"
+  }
+}
